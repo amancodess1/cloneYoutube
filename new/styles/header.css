@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    height: 57px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+   
+    height: 40px ;
+}
+.hamburger-menu{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search-button-button{
+    height: 40px;
+    width: 60px;
+    margin-left: -1px;
+    background-color: rgb(235, 232, 232);
+    border: solid;
+    border-width: 1px;
+    border-color: #d8cccc;
+    margin-right: 12px;
+    
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 470px;
+    margin-left: 60px;
+    height: 40px;
+    }
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    flex-shrink: 0;
+
+  
+}
+.voice-search{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(241, 236, 236);
+    
+}
+.search-bar {
+    height: 36px;
+    flex: 1;
+    width: 0;
+    min-width: 0;
+    padding-left: 12px;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #cccccc;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 0px 1px 2px #eeeeee;
+    
+}
+.search-icon{
+    height: 26px;
+}
+.voice-search-icon{
+    align-items: center;
+   height: auto;
+   width: auto;
+}
+.upload{
+   
+    height: 24px;
+}
+.youtube-apps{
+    height: 24px;
+}
+.notifications{
+    height: 24px;
+}
+.my-profile{
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 20px;
+}

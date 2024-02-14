@@ -1,0 +1,31 @@
+.sidebar {
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 57px;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    font-size: 10px; 
+
+    
+}
+
+.iconss{
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+.sidebar p{
+text-align: center;
+
+}
+.iconss:hover{
+    background-color: rgb(249, 245, 245);
+    cursor: pointer;
+
+}
